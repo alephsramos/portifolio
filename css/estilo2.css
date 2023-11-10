@@ -1,0 +1,23 @@
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 8px;
+    padding: 20px 40px;
+    transition: color 0.3s;
+}
+.icon-container img{
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    width: 16,66%;
+}
+
+.icon-container a:hover {
+    color: #007bff; /* Cor quando o mouse passa por cima */
+}

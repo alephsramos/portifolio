@@ -1,0 +1,302 @@
+
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #000000;
+    background: #07281e;
+    animation: gradient 15s ease infinite;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  
+  .carousel {
+    width: 98.5%;
+    overflow-x: scroll;
+    padding: 20px;
+    padding-top: 80px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+  }
+  
+  .carousel__container {
+    white-space: nowrap;
+    
+    margin: 120px 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+  }
+
+  .home-pag{
+    text-decoration: none;
+    padding: 8px 22px 8px 22px;
+    margin-left: 85%;
+    font-size: 18px;
+    margin-top: -1.5%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background: none;
+    position: fixed;
+    width: 80px;
+    opacity: 80%;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px 0px rgb(255, 255, 255, 0.5);
+  }
+  .home-pag:hover{
+    transition: 0.3s;
+    font-size: 20px;
+    background: white;
+    opacity: 100%;
+    color: #0a1d13;
+  }
+
+  
+  .categories__title {
+   color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: -3%;
+    opacity: 90%;
+    font-family: 'Cinzel', serif;
+    position: fixed;
+    padding-left: 30px;
+  }
+  .p-title{
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    width: 600px;
+    font-family: 'Cinzel', serif;
+    margin-top: 3px;
+    opacity: 50%;
+    margin-left: 2%;
+  }
+  .carousel-item {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #95bcd6;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: 150ms all;
+    transition: 150ms all;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.19),
+0px 6px 6px 0px rgba(0,0,0,0.23);
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+    position: relative;
+    margin-bottom: -2%;
+  }
+  
+  
+  .carousel-item:hover ~ .carousel-item {
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(150px, 0px, 0px);
+  }
+  
+  .carousel__container:hover .carousel-item {
+    opacity: 0.2;
+    
+  }
+  
+  .carousel__container:hover .carousel-item:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 1;
+    
+  }
+  
+  .carousel-item__img {
+    width: 300px;
+    height: 300px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .carousel-item__details {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    font-size: 15px;
+    opacity: 0;
+    -webkit-transition: 450ms opacity;
+    transition: 450ms opacity;
+    padding: 10px;
+    position: absolute;
+    top: 10;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .carousel-item__details:hover {
+    opacity: 1;
+  }
+  
+  .carousel-item__details span {
+    /* width: 10px;
+    height: 10px; */
+    font-size: 0.9rem;
+    color: #2ecc71;
+    /* background-color: white; */
+  }
+  
+  .carousel-item__details .controls {
+    padding-top: 180px;
+  }
+  
+  .carousel-item__details .carousel-item__details--title,
+  .carousel-item__details--subtitle {
+    color: #fff;
+    margin: 5px 0;
+
+  }
+
+
+
+
+
+/* Altera a cor de fundo da barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+    border-radius: 10px; /* Raio de arredondamento */
+  }
+  
+  /* Altera a cor do "trilho" da barra de rolagem (a área que a barra de rolagem percorre) */
+  ::-webkit-scrollbar-track {
+    background: #dfeae2;
+    border-radius: 10px;
+    margin: 700px;
+  }
+  
+  /* Altera a cor da própria barra de rolagem horizontal */
+  ::-webkit-scrollbar-thumb:horizontal {
+    background: #358873;
+    border-radius: 10px;
+    border: 0.5px solid rgb(255, 255, 255, 0.5);
+  }
+  
+  /* Altera a cor da barra de rolagem horizontal quando você passa o mouse sobre ela */
+  ::-webkit-scrollbar-thumb:hover:horizontal {
+    background: #358873;
+    border-radius: 10px;
+    
+  }
+
+
+  .p-fim{
+    text-align: center;
+    font-size: 13px;
+    opacity: 40%;
+    color: #000000;
+    margin-top: 2%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    75% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: #8dc3a7;
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 300%;
+    height: 10em;
+    animation: wave 8s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.1;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+    
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
